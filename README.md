@@ -10,7 +10,7 @@ In this assignment, we calculate gamma automatically using parallel threads (if 
 4. Apply the a gamma correction to the image using the Gamma value from step 3.
 
 ## Timing your code
-You code should should have a timer that starts just before the gamma calucation and should stop right after applying the gamma correction. Your code should then print the time difference between start and stop values. Use the high_resolution_clock method:
+You code should have a timer that starts just before the gamma calucation and should stop right after applying the gamma correction. Your code should then print the time difference between start and stop values. Use the high_resolution_clock method:
 ```cpp
 auto start = high_resolution_clock::now();
 // gamma calculation and correction here...
